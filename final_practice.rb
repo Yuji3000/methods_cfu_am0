@@ -37,7 +37,7 @@ def square(num1)
   num1 * num1
 end
 
-square(3)
+puts square(3)
 
 
 
@@ -52,8 +52,7 @@ def greet_person(first_name, middle_name, last_name)
 
   first_name + " " + middle_name + " " + last_name
 end
-
-greet_person "Jerry", "Merry", "Seinfold"
+puts ("Hello, " + (greet_person "Jerry", "Merry", "Seinfold"))
 
 
 
